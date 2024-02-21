@@ -50,7 +50,10 @@ function MyComponent() {
   }, []);
 
   return <input ref={myInputRef} />;
-}```
+}
+```
+
+### forwardRef Kullanımı
 
 ```javascript
 import React, { forwardRef, useRef, useImperativeHandle } from 'react';
